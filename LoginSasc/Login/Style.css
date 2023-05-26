@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --verde: #01B574;
+    --branco: #F4F4F4;
+    --cinza_letra: #D9D9D9;
+    --cinza_icons: #8F8F8F;
+    --rosa: #CF4B83;
+    --font1: 'ABeeZee', sans-serif;
+    --font2: 'Titillium Web', sans-serif;
+}
+
+.logo{
+    width: 70px;
+}
+
+
+body{
+    background-color: var(--branco);
+}
+
+h2{
+    font-family: var(--font1);
+    color: var(--verde);
+}
+
+
+.slogan_1{
+    font-size: 15px;
+    font-family: var(--font1);
+    color: var(--cinza_icons);
+    margin: 20px;
+}
+
+.login_usuario{
+    position: absolute;
+    box-shadow: 2px 2px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 200px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding: 50px;
+    width: 520px ;
+    height:  650px;
+    margin: 10px; 
+
+}
+
+.informacoes_usuario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+
+
+.inputs{
+    background-color: var(--verde);
+    border: none;
+    height:40px;
+    width: 300px;
+    border-radius: 60px;
+    padding: 20px;
+    margin: 15px;
+    
+
+}
+
+.btn_login{
+	width: 50%;
+    height: 50px;
+    padding: 10px;
+	margin: 0 auto;
+	border-radius: 20px;
+	border: none;
+    font-family: var(--font2);
+	text-transform: uppercase;
+    text-decoration: none;
+	color: #fff;
+	background: var(--verde);
+	
+}
