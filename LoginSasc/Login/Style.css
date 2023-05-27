@@ -1,4 +1,4 @@
-*{
+    *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,17 +16,56 @@
 }
 
 .logo{
-    width: 70px;
+    width: 50px;
+    margin-left: 3px;
+   
+    
 }
 
 
 body{
     background-color: var(--branco);
+    height: 100%;
+    
+    
 }
+
+
+.login{  
+    
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+.login_usuario{
+    margin-left: 80px;
+    box-shadow: 2px 2px 70px rgba(0, 0, 0, 0.25);
+    border-radius: 120px;
+
+    
+    padding: 40px 40px;
+    width: 450px ;
+    height: 550px;
+    
+     
+    
+    
+    
+     
+    
+    
+
+}
+
 
 h2{
     font-family: var(--font1);
     color: var(--verde);
+    padding-top: 30px;
+    text-transform: uppercase;
 }
 
 
@@ -34,34 +73,20 @@ h2{
     font-size: 15px;
     font-family: var(--font1);
     color: var(--cinza_icons);
-    margin: 20px;
+    
 }
 
-.login_usuario{
-    position: absolute;
-    box-shadow: 2px 2px 70px rgba(0, 0, 0, 0.25);
-    border-radius: 200px;
-    display: flex;
-    flex-direction: column;
-    
-    
-    padding: 50px;
-    width: 520px ;
-    height:  650px;
-    margin: 10px; 
 
-}
-
-.informacoes_usuario{
+/*.login_usuario{
     display: flex;
     flex-direction: column;
     margin-top: 100px;
-}
+} */
 
 
 
 .inputs{
-    background-color: var(--verde);
+    background-color:var(--verde);
     border: none;
     height:40px;
     width: 300px;
@@ -85,4 +110,31 @@ h2{
 	color: #fff;
 	background: var(--verde);
 	
+}
+
+.banner{
+    background-color: var(--verde);
+    clip-path: circle(70.5% at 100% 45%);
+
+height: 663px;
+margin-top: -60px;
+width: 3000px;
+
+
+    
+}
+
+.banner_conteudo{
+   
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.img_lampada{
+    height: 300px;
+    
 }
