@@ -12,11 +12,11 @@
     --cinza_icons: #8F8F8F;
     --rosa: #CF4B83;
     --font1: 'ABeeZee', sans-serif;
-    --font2: 'Titillium Web', sans-serif;
+    --font2: 'Titillium Web', sans-serif; 
 }
 
 .logo{
-    width: 50px;
+    width: 70px;
     margin-left: 3px; 
 }
 
@@ -30,17 +30,18 @@ body{
 .login{      
     display: flex;
     justify-content: space-between; 
+    
 }
 
 
 .login_usuario{
-    margin-left: 80px;
+    margin-left: 100px;
     box-shadow: 2px 2px 70px rgba(0, 0, 0, 0.25);
     border-radius: 120px;
 
     padding: 40px;
     width: 450px ;
-    height: 550px;
+    height: 620px;
 }
 
 
@@ -106,13 +107,17 @@ h2{
 .banner{ 
     background-color: var(--verde);
     clip-path: circle(90.5% at 100% 45%);
-    margin-top: -60px;
-    height: 663px;  
+    margin-top: -80px;
+    height: 751px;  
+    position: relative;
+    
 }
 
 .banner_conteudo{
     display: flex;
     flex-direction: column;
+    align-items:center;
+
 }
 
 .banner_txt{
@@ -126,7 +131,8 @@ h2{
 }
 
 .img_lampada{
-    height: 200px;
-    
-
+    height: 50%;
+    width: 50%;
+    margin-left: 210px;
+    margin-top: 60px;
 }
